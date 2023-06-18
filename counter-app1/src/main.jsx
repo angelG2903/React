@@ -9,7 +9,7 @@ import './styles.css';
 ReactDOM.createRoot( document.getElementById('root') ).render(
     <React.StrictMode>
         {/* el title es una property que le asignamos en el componente padre para pasarlo al coomponente hijo*/}
-        {/* <App title="Hola soy Goku" /> */}
-        <CounterApp value={20}/>
+        <App title="Hola soy Goku" />
+        {/* <CounterApp value={20}/> */}
     </React.StrictMode>
 );
